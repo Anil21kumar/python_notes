@@ -40,6 +40,7 @@ anil3(b=9) # the value of b=9 because we specificly we gave b=9,the a value is d
 def add(a,b):
     c=a*b
     print(c)
+    
 def sub(c=3,d=3):
     f=c+d
     print(f)
@@ -47,5 +48,17 @@ add(8,8)
 sub(4)
 
 
+def int(a,b):
+    d=a+b
+    print(d)
+int(2,8)
 
+def list(a,b):
+    c=a*b
+    print(c)
+list(3,3)
 
+def none(f=3,t=5):
+    y=f*t
+    print(y)
+none()    
