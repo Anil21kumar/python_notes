@@ -1,17 +1,23 @@
-int 
-in this we can store numaric values ,it can contain singl degit or double or more it will consider as int
-a=1,
-b=12
-c=12345555555
-all are int 
-float 
-in this we can see the numbers inthis format
-a=10.00
-b=10.11
-a=10.01
-all like this are float
-bool 
-bool is refered for true or false only in python we call bool not boolion ok mr.anil yes sir
+# data types
+
+ # num__number 
+ # numbers are divided into three types 1=>int,2=>floating,3=>complex
+ # int=integer like = single digit or multiple digit like 1,2,-1,-2,123,1234,564,soonnn
+ # flot =floting which comes in . in between numbers =1.5,11.22,134.44.,35.44 ,,,,,
+ # complex = it comes with letter "j" like =a=1+2j,b=5j,c=9-2j,.....
+
+ # strings = in python string is a secquence of charecters 
+ # which is enclosed between single quecations('--') or double quecations ("----")
+ # strings are user to represent text data 
+ # { upper case ,,lover case ,captalize, these work only on charecters not on numbers or special charectors)
+ # the text we write in single or double or multiple quecations are considered as sirtng automaticaly 
+ # we can use charectors numbers and special simbles are also consider as string,,
+ # boolean is used for only true or false or none ..
+ 
+ # list = list is mutable type of data 
+  
+ # we can store all types of data in list 
+ # every iteam is saperated by commos,,
+ # it is order based data 
+ # list are defined by using squre brackets [--]
     
-str
-string is refferd for charectors 

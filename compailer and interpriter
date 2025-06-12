@@ -1,0 +1,13 @@
+the compailer translate the entair code into binary before exicution 
+execution speed is faster compare to interpriter
+display errors after compiling
+debuging is more chalenging
+requires more memory as is jenarates object code 
+used with language c,c++,java,..
+
+
+translate and exicution of code will be done by lone by line
+execution of code is slow compared to compiler
+easer to debug 
+uses less memory 
+used language like python,ruby,javascript..
