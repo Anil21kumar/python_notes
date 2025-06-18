@@ -21,3 +21,37 @@
  # it is order based data 
  # list are defined by using squre brackets [--]
     
+a=10
+print(type(a))
+
+b=10.32
+print(type(b))
+
+c=1+6j
+print(type(c))
+
+d=2+7j
+print(type(d))
+
+f=a+3j
+print(type(f))
+
+a='anil'
+b='i can"t use my bike"today'
+print(type(a))
+print(type(b))
+
+v="anil kumar"
+print(v[7])
+print(v[1:19:3])
+print(v[::1])
+
+
+x="pythonprogram"
+print(x[2:15:3])
+y="abcdefghijklmnop"
+print(y[-2:-19:-2])
+x="abcdefghijklmnop"
+print(x[::])
+X="abcdefghijklmnop"
+print(X.upper())
