@@ -120,91 +120,145 @@
 #     x=x*i
 #     print(x)
 
-# for i in range(1,5):
-#     for j in range(i):
-#         print('*',end="")
-#     print()
+# # for i in range(1,5):
+# #     for j in range(i):
+# #         print('*',end="")
+# #     print()
 
 
-# for i in range(1,5):
-#     for j in range(3):
-#         print(i,j)
-#     print()        
+# # for i in range(1,5):
+# #     for j in range(3):
+# #         print(i,j)
+# #     print()        
 
-# for i in range (1,4):
-#     for j in range(1,4):
-#         for k in range(4):
-#             print(i,j,k)
-#         print()
-
-
-# a=5
-
-# for i in range(1,5):
-#     s=' '*(a-i)*2
-#     h='1'*i
-#     print(s+h.strip())
+# # for i in range (1,4):
+# #     for j in range(1,4):
+# #         for k in range(4):
+# #             print(i,j,k)
+# #         print()
 
 
-# for i in range(1,4):
-#     for j in range(1,i+1):
-#         print("*")
+# # a=5
+
+# # for i in range(1,5):
+# #     s=' '*(a-i)*2
+# #     h='1'*i
+# #     print(s+h.strip())
+
+
+# # for i in range(1,4):
+# #     for j in range(1,i+1):
+# #         print("*")
 
 # for i in range (1,4):
 #     print("  " *(3-i),end="")
 #     for j in range (1,i+1):
 #         print(j,end=' ')
-#     print()    
+#     print()  
+#     output=
 
+#                  1 
+#                1 2 
+#              1 2 3
+   
+
+# # for i in range (3):
+# #     for j in range(3):
+# #         print("A",end="")
+
+# # ord =it is a key word that is used to number to char 
+# # ascii = 
+# a="A"
 # for i in range (3):
 #     for j in range(3):
-#         print("A",end="")
-
-# ord =it is a key word that is used to number to char 
-# ascii = 
-a="A"
-for i in range (3):
-    for j in range(3):
-        print(a,end=" ")
-        a= chr( ord(a) + 1)
+#         print(a,end=" ")
+#         a= chr( ord(a) + 1)
            
-    print()
-#    output =
-#              A B C 
-#              D E F 
-#              G H I
+#     print()
+# #    output =
+# #              A B C 
+# #              D E F 
+# #              G H I
 
-a="A"
-for i in range (1,4):
-    for j in range(1,4):
-        print(a,end=" ")
-        a= chr( ord(a) + 1)
-    a="A" 
-    print()
-#    out put =
-#             A B C
-#             A B C
-#             A B C
+# a="A"
+# for i in range (1,4):
+#     for j in range(1,4):
+#         print(a,end=" ")
+#         a= chr( ord(a) + 1)
+#     a="A" 
+#     print()
+# #    out put =
+# #             A B C
+# #             A B C
+# #             A B C
 
-for i in range(1,11):
-    print("2 x",i,"=",i+2 )
-
+# for i in range(1,11):
+#     print("2 x",i,"=",i+2 )
+# # 2 table using for loop
 b=1
 for b in range(1,9):
     if b==4:
         continue
-    if b==7:
+    if b==6:
         continue
     print(b)
     
-   # out put =
-   # 1
-   # 2
-   # 3
-   # 5
-   # 6
-   # 8
-   # 9
-   
-     
+#    # out put =
+#    # 1
+#    # 2
+#    # 3
+#    # 5
+#    # 6
+#    # 8
+#    # 9
 
+
+# a=1
+# while a<=10:
+#     print("2 x",a,"=",a*2)
+#     a+=1
+# # 2 table using while loop
+
+# a=1
+# for i in range(1,11):
+#         print("5 x",a,"=",a*5)
+#         a+=1
+# out put = 5 table using for loop
+
+
+a="A"
+for i in range(1,4):
+    print("  "*(3-i),end=" ")
+    for j in range(1,i+1):
+        print(a,end=" ")
+        a=chr(ord(a)+1)
+    print()
+   
+#      out put==
+#                      A
+#                    B C
+#                  D E F
+# a="A"
+# for i in range(1,4):
+#     print(" "*(3-i),end=" ")  # the only difference is here we gave single space and above we gave double space
+#     for j in range(1,i+1): 
+#         print(a,end=" ")
+#         a=chr(ord(a)+1)
+#     print()    
+#  output==
+#              A
+#             B C
+#            D E F
+
+a=1
+for i in range(1,4):
+    print("  "*(3-i),end=" ")
+    for j in range (1,i+1):
+        print(a,end=" ")
+        a+=1
+    print()    
+    # out put ==
+
+    #                1
+    #              2 3
+    #            4 5 6
